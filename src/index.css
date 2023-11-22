@@ -541,3 +541,42 @@ Search Form
         border-bottom-left-radius: 0;
     }
 }
+
+
+/*
+pl img
+*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pl-img {
+    width: 90px;
+}
+
+@media (min-width: 768px) {
+    .nav-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pl-img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .pl-img {
+
+        position: absolute;
+        right: 0;
+        top: 5rem;
+    }
+}

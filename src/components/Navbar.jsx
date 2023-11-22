@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-
+import pl from '../assets/pl.jpg'
 const Navbar = () => {
   return (
     <nav>
@@ -15,6 +15,9 @@ const Navbar = () => {
           <NavLink to="/newsletter" className="nav-link">
             Newsletter
           </NavLink>
+          <div className="pl-img-container">
+            <img src={pl} alt="pl img" className="pl-img" />
+          </div>
         </div>
       </div>
     </nav>
