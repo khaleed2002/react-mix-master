@@ -377,7 +377,7 @@ Page Layout
     width: var(--view-width);
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 5rem 2rem;
+    padding: 3rem 2rem;
 }
 
 /*
@@ -523,7 +523,6 @@ Single Cocktail Page
 Search Form
 */
 .search-form {
-
     margin-bottom: 6rem;
 
     .form {
